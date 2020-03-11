@@ -10,7 +10,7 @@ services:
       POSTGRES_URI: postgres://sally:secret@postgres:5432/smart-brain-docker
       REDIS_URI: redis://redis:6379
     ports:
-      - "3000:3000"
+      - "5000:5000"
     volumes:
       - ./:/usr/src/smart-brain-api
 
